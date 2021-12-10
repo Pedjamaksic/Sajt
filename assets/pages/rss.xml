@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" >
+<channel>
+     <title> Metode pecanja </title>
+     <link>https://pedjamaksic.github.io/Sajt/index.html </link>
+     <description>Informacije o premeni metoda </description>
+    <item> 
+         <title>Galerija</title>
+         <link>https://pedjamaksic.github.io/Sajt/assets/pages/galerija.html  </link>
+         <description>Nove slike su došle u galeriju  </description>
+    </item>
+    <item>
+         <title>Biografija</title>
+         <link>https://pedjamaksic.github.io/Sajt/assets/pages/omeni.html </link>
+        <description>Promene u mojoj biografiji  </description>
+    </item>
+</channel>
+</rss>
