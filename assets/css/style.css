@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+ text-decoration: none;
+ font-family: 'Karla', sans-serif;
+    
+}
+div {
+    display: block;
+}
+.cleaner{
+    clear: both;
+}
+.wrapper {
+    background-color: #efe4b0;
+  /*  border-top: solid;
+    border-bottom: solid;*/
+}
+#logo {
+    float: left;
+    padding: 4px;
+}
+
+#logo a img {
+        width: 40px;
+}
+
+body {
+    background-color: #99d9ea;
+}
+nav {
+    text-align: center;
+    padding: 15px;
+}
+nav ul {
+    list-style: none; 
+}
+nav ul li {
+    margin: 10px 10px;
+    display:  inline-block;
+}
+nav ul li a {
+   font-size: 24px;
+   text-align: center;
+   color: black;
+}
+nav ul li a:hover {
+    color: red;
+}
+.active {
+    color: red;
+}
+/* Naslovna */
+#naslov {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-image: url('../images/Ribolov123.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+   /* border-bottom: solid  black;*/
+}
+#naslov h1 {
+        padding: 40px;
+        font-size: 40px;
+        text-align: center;
+        font-style: italic;
+       
+}
+#kopis {
+    text-align: center;
+    justify-content: center;
+   
+
+
+}
+#kopis h2 {
+        padding-top: 10px;
+        margin: 30px;
+        font-size: 25px;
+        font-style: italic;
+
+}
+.textopis {
+        font-size: 24px;
+
+}
+.veza {
+    color: red;
+}
+.wrapper2{
+    
+    width: 75%;
+    text-align: center;
+   margin-left: 300px;
+}
+.blok {
+    position: relative;
+    width: 400px;
+    height: 600px;
+   
+    
+    float: left;
+    margin: 20px;
+}
+.slikab {
+    width: 400px;
+    height: 400px;
+}
+.kartica {
+    
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    
+}
+.kartica:hover{
+    transform: rotateY(180deg);
+}
+.prednja {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.zadnja {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    
+}
+.zadnja p {
+    font-size: 25px;
+    text-align: justify;
+    color: black;
+}
+.wrapper3 {
+    background-color:#efe4b0 ;
+    height: 80px;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.wrapper3 i {
+    font-size: 40px;
+    color: black;
+    margin: 15px;
+
+    
+}
+/* kraj pocetne */
+/*pocetak plovak*/
+#naslov2 {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-image: url('../images/dostaplovaka.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+#naslov2 h1 {
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+   
+}
+#wrap {
+    display: flex;
+}
+#lblok1 {
+    width: 50%;
+    text-align: left;
+    margin-top: 50px;
+   float: left;
+   border-right: dashed;
+ 
+}
+#lblok1 figure {
+        width: 95%;
+        
+}
+#lblok1 figure img {
+    width: 100%;
+    height: 600px;
+
+}
+#lblok1 p {
+    text-align: justify;
+    margin-right: 20px;
+    font-size: 20px;
+}
+#lblok1 .blslika,.bltext{
+     float: left;
+     width: 50%;
+}
+section #wrap #lblok1  .bltext  h2 {
+    margin: 0px 10px 10px 10px;
+}
+#dblok1 {
+    width: 50%;
+    text-align: right;
+    margin-top: 50px;
+   float: right;
+   
+}
+section article #bdslika   {
+    width: 50%;
+}
+section article #bdslika figure img {
+    width: 96%;
+    /*border: solid black;*/
+    
+}
+section #wrap #dblok1 #bdtext  h2 {
+    margin: 0px 10px 10px 10px;
+}
+#dblok1 #bdslika,#bdtext {
+    float: right;
+    width: 50%;
+}
+#dblok1 #bdtext p {
+    text-align: justify;
+    margin-left: 20px;
+    font-size: 20px;
+}
+/*kraj za plovak*/
+/*pocetak za varalicu*/
+
+#naslov3 {
+    background-image: url('../images/dostavaralica.jpg');
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+#naslov3 h1 {
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+   
+}
+#naslov4 {
+    background-image: url("../images/dubinskomamac.jpg");
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+#naslov4 h1 {
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+   
+}
+#naslov5 {
+    background-image: url("../images/galerija.jpg");
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+#naslov5 h1 {
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+   
+}
+#container {
+    margin: 100px auto;
+    width: 75%;
+    text-align: center;
+}
+.slikica {
+    margin: 15px 20px;
+    float: left;
+    width: 30%;
+    border-radius: 10%;
+    transition: transform 1s; 
+}
+.slikica:hover{
+    transform: scale(1.1);
+}
+.slikica img {
+    width: 100%;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px grey;
+    
+}
+#naslov6 {
+    background-image: url("../images/autorpoz.jpg");
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+#naslov6 h1 {
+    color: white;
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+   
+}
+.oautoru {
+    width: 100%;
+    margin-left: 10%;
+}
+.profilna {
+    width: 40%;
+    float: left;
+}
+.profilna img {
+    width: 50%;
+    border-radius: 10%;
+}
+.omeni {
+    margin-top: 50px;
+    width: 30%;
+    float: left;
+}
+.omeni p {
+    font-size: 20px;
+   
+}
+#forma{
+    height: 60%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#Ime{
+    margin-bottom: 1%;
+    float: left;
+    width: 40%;
+    height: 50px;
+    font-size: 25px;
+
+}
+#Prezime {
+    margin-bottom: 1%;
+    float: left;
+    width: 40%;
+    height: 50px;
+    font-size: 25px;
+    
+}
+.Velicina1{
+    width: 75%;
+    height: 80%;
+    text-align: center;
+    font-size: 30px;
+}
+#Email{
+    margin-bottom: 1%;
+    float: left;
+    width: 83%;
+    height: 50px;
+    font-size: 30px;
+}
+#Poruka {
+    margin-bottom: 1%;
+    float:left;
+    width: 82%;
+    height: 150px;
+    font-size: 30px;
+}
+.Dugme {
+    float: left;
+    width: 20%;
+    height: 50px;;
+    margin-left: 15%;
+    font-size: 30px;
+    border-radius: 15%;
+}
+
+
