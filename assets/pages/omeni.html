@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 <head>
-    <title>O autoru</title>
     <meta charset="UTF-8">
+    <title>O autoru</title>
+  
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="O autoru">
     <meta name="keywords" content="biografija,zanimanje,slika,forma">
@@ -54,20 +55,38 @@
         <div class="oautoru" >
             <div class="profilna"> <img src="../images/ja.jpg" alt="Predrag Maksić"></div>
             <div class="omeni">
-                <p>Ja sam Predrag Maksić iz Veliki Crljeni .Trenutno radi u "SBB" kao tehničar za održavanje koaksijalne mreže a uporedno sa poslom studiram na Visoko ICT školi web dizajn i internet tehnologije.Veoma sam dobar u radu sa ljudima i timski sam igrač.Željan sam da napreduje i da učim nove veštine koje će mi pomoći u daljem radu. </p>
+                <p>Ja sam Predrag Maksić iz Velikih Crljeni .Trenutno radi u "SBB" kao tehničar za održavanje koaksijalne mreže a uporedno sa poslom studiram na Visoko ICT školi web dizajn i internet tehnologije.Veoma sam dobar u radu sa ljudima i timski sam igrač.Željan sam da napreduje i da učim nove veštine koje će mi pomoći u daljem radu. </p>
             </div>
             <div class="cleaner" ></div>
 
         </div>
         <div id="forma">
             <form method="post" action="omeni.html" name="KontakForma" id="KontaktForma"> 
-                
-                  <label for="Ime"id="Ime">Ime <input type="text" name="Ime"class="Velicina1" ></label>
-                  <label for ="Prezime"id="Prezime">Prezime <input type="text" name="Prezime" class="Velicina1"></label>
-                  <label for for="Email"id="Email">Email <input type="email" name="Mail" class="Velicina1"></label>
-                  <label for="Poruka"id="Poruka">Poruka  <textarea name="Poruka" class="Velicina1" cols="30" rows="10"></textarea></label>
-                    <input type="reset" value="Submit" class="Dugme">
-                    <input type="reset" value="Reset" class="Dugme">
+               
+                <div class="polje">
+                    <div>
+                    <label for="ime" class="label">Ime:</label></div>
+                    <input type="text" name="ime" id="ime" placeholder="Pera">
+                </div>
+                <div class="polje">
+                    <div>
+                    <label for="prezime" class="label">Prezime:</label></div>
+                    <input type="text" name="prezime" id="prezime" placeholder="Perić">
+                </div>
+                <div class="polje">
+                    <div>
+                    <label for="mail" class="label">email:</label></div>
+                    <input type="emal" name="mail" id="emaili" placeholder="pera.peric@mail.com">
+                </div>
+                <div class="polje">
+                    <div>
+                    <label for="poruka" id="poruka">Poruka:</label></div>   
+                    <textarea name="poruka" id="poruka1" cols="30" rows="10" placeholder="Ovde ostavite vašu poruku."></textarea>
+                </div>
+                <div>
+                    <input type="reset" value="Submit" class="dugme">
+                    <input type="reset" value="Reset" class="dugme">
+                </div>
                     <div class="cleaner" ></div>
 
                     
