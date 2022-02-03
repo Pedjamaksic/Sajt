@@ -406,9 +406,7 @@ section #wrap #dblok1 #bdtext  h2 {
      /*   transform: left(-500px)*/
         opacity: 0;
       }
-      50% {
-        opacity: 0.5;
-      }
+      
       100% {
         transform: translateZ(0) translateY(0);
         opacity: 1;
